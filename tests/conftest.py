@@ -1,7 +1,7 @@
 from pytest import fixture
-from app.api import app
+from sample_package.sample_module import Calculator
 
 
 @fixture
-def client():
-    return app.test_client()
+def calculator():
+    return Calculator()
