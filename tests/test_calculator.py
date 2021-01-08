@@ -1,4 +1,3 @@
-
 def test_add(calculator):
     """
     Testing if Addition is calculated correctly
