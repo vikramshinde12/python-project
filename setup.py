@@ -5,7 +5,7 @@ with open("README.rst", "r") as file:
 
 setuptools.setup(
     name="python-project-vik",
-    version="1.1.0",
+    version="1.1.1",
     author="Vikram Shinde",
     author_email="vik.shinde@gmail.com",
     description="Python project for testing",
