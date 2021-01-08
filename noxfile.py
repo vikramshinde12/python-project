@@ -1,9 +1,10 @@
 import os
 import nox
+import shutil
 
 
 BLACK_VERSION = "black==19.10b0"
-BLACK_PATHS = ["sample_package", "tests", "noxfile.py", "setup.py"]
+BLACK_PATHS = ["docs", "sample_package", "tests", "noxfile.py", "setup.py"]
 DEFAULT_PYTHON_VERSION = "3.7"
 
 
@@ -57,6 +58,7 @@ def docs(session):
     session.install("-e", ".")
     session.install("sphinx<3.0.0", "alabaster", "recommonmark")
 
+    shutil.rmtree(os.path.join("docs", "_build"), ignore_errors=True)
     session.run(
         "sphinx-build",
         "-W",  # warnings as errors

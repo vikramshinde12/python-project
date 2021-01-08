@@ -1,4 +1,14 @@
 class Calculator:
+    """
+    Calculator Class
+    """
+
+    def test(self):
+        """ Retrieves employee details.
+        Represent the state of a given execution of a Query.
+        """
+        return "test"
+
     @staticmethod
     def add(a, b):
         """

@@ -1,8 +1,8 @@
 python-project
 ===============================================
 
-This is Python project to demostrate python standard and pytest, tox, documentations, behave, etc.
+This is sample python project to demonstrate how to create python package on PyPI server.
 
-This is sample Python package for PyPi packaging
+- `Client Library Documentation`_
 
-Version 1.3.0
+.. _Client Library Documentation: https://python-project-vik.readthedocs.io/en/latest
