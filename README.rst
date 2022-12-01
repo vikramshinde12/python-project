@@ -1,7 +1,7 @@
 python-project
 ===============================================
 
-This is sample python project to demonstrate how to create python package on PyPI server.
+This is sample python project to demonstrate how to create python package on PyPI server
 
 - `Client Library Documentation`_
 
