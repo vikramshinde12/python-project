@@ -1,6 +1,15 @@
+name: Python package
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
 jobs:
-  job_id:
-    # ...
+  release:
+    name: 'Release'
+    runs-on: 'ubuntu-latest'
 
     permissions:
       contents: 'read'
